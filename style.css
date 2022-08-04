@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+#coordinate_wrapper {
+    position: fixed;
+    top: 2vh;
+    left: 2vh;
+    width: 17vw;
+    border: 1px solid white;
+    border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;
+}
+
+
+
+.spacer {
+    margin: 1.5vh 0;
+    width: 85%;
+    border-bottom: 1px solid white;
+}
+
+
+#coordinate_wrapper p span {
+    color: lightcoral;
+}
